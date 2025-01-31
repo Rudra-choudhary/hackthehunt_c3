@@ -17,7 +17,6 @@ def display_tasks(tasks):
     print("\nYour Tasks:")
     for idx, task in enumerate(tasks, start=1):
         print(f"{idx}. {task}")
-#https://bhikharamchandmal.in/pub/media/catalog/product/cache/ef57649359a15d7eca263b8363bcd76b/b/i/bikaneri-bhujia_200g_200g_front.png
 def add_task(tasks):
     task = input("Enter a new task: ").strip()
     if task:
